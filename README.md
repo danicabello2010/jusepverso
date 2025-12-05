@@ -1,6 +1,6 @@
 🚀 Jusep Verso - Cambios 🚀
 
-Versión 1.0.0 (Lanzamiento Inicial) - 24 de Noviembre de 2025 ¡Estamos emocionados de lanzar la primera versión de Jusep Verso, tu portal al multifacético universo de los Jusep! Esta versión inaugural sienta las bases para futuras y grandes aventuras.
+Versión 1.0.0 (Lanzamiento Inicial) - 5 de Diciembre de 2025 ¡Estamos emocionados de lanzar la primera versión de Jusep Verso, tu portal al multifacético universo de los Jusep! Esta versión inaugural sienta las bases para futuras y grandes aventuras.
 
 * ¡Conoce a los Primeros Jusep!
 * Hemos añadido tres tipos iniciales de Jusep para que empieces a interactuar y coleccionar. ¡Descubre sus personalidades únicas!
