@@ -10,5 +10,6 @@ Versión 1.0.0 (Lanzamiento Inicial) - 5 de Diciembre de 2025 ¡Estamos emociona
 * Implementada una Barra de Navegación en la parte inferior para que puedas moverte fácilmente entre las diferentes secciones de la aplicación.
 * Experiencia a Pantalla Completa
 * Añadido un Botón de Pantalla Completa para una inmersión total sin distracciones en el Jusep Verso.
+* Se añadio la opcion de elejir en que dispositivo estas
 🚧 Próximamente 🚧
 * ¡Sonido es Vida! La característica más solicitada. Estamos trabajando arduamente para que en la próxima actualización puedas escuchar los sonidos característicos de cada Jusep al tocarlos.
