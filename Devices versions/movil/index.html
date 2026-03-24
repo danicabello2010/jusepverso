@@ -81,33 +81,33 @@
 		}
 
 		.center-btn.estrella-bg {
-			background: url('UI/Jusep Estrella.png') center center/cover no-repeat, rgba(34, 34, 34, 0.7);
+			background: url('./UI/Jusep\ Estrella.png') center center/cover no-repeat, rgba(34, 34, 34, 0.7);
 			transition: filter 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 		}
 
 		.center-btn.estrella-bg:hover {
 			filter: brightness(0.8);
-			background: url('UI/Jusep Estrella.png') center center/cover no-repeat, rgba(34, 34, 34, 0.7);
+			background: url('./UI/Jusep\ Estrella.png') center center/cover no-repeat, rgba(34, 34, 34, 0.7);
 		}
 
 		.center-btn.esponja-bg {
-			background: url('UI/Jusep Esponja.png') center center/cover no-repeat, rgba(34, 34, 34, 0.7);
+			background: url('./UI/Jusep Esponja.png') center center/cover no-repeat, rgba(34, 34, 34, 0.7);
 			transition: filter 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 		}
 
 		.center-btn.esponja-bg:hover {
 			filter: brightness(0.8);
-			background: url('UI/Jusep Esponja.png') center center/cover no-repeat, rgba(34, 34, 34, 0.7);
+			background: url('./UI/Jusep Esponja.png') center center/cover no-repeat, rgba(34, 34, 34, 0.7);
 		}
 
 		.center-btn.jusep-bg {
-			background: url('UI/JUSEP.png') center center/cover no-repeat, rgba(34, 34, 34, 0.7);
+			background: url('./UI/JUSEP.png') center center/cover no-repeat, rgba(34, 34, 34, 0.7);
 			transition: filter 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 		}
 
 		.center-btn.jusep-bg:hover {
 			filter: brightness(0.8);
-			background: url('UI/JUSEP.png') center center/cover no-repeat, rgba(34, 34, 34, 0.7);
+			background: url('./UI/JUSEP.png') center center/cover no-repeat, rgba(34, 34, 34, 0.7);
 		}
 
 		.center-btn-container {
@@ -251,9 +251,9 @@
 			<button class="modal-btn" id="btnAceptarModal">Aceptar</button>
 		</div>
 	</div>
-	<audio id="audioMono" src="Jusep_data/Jusep/Sonidodemonos.mp3" loop></audio>
-	<audio id="audioEsponja" src="Jusep_data/Jusep Esponja/bsjusu.mp3" loop></audio>
-	<audio id="audioEstrella" src="Jusep_data/Jusep Estrella/baquehuate.mp3" loop></audio>
+	<audio id="audioMono" src="./Jusep_data/Jusep/Sonidodemonos.mp3" loop></audio>
+	<audio id="audioEsponja" src="./Jusep_data/Jusep Esponja/bsjusu.mp3" loop></audio>
+	<audio id="audioEstrella" src="./Jusep_data/Jusep Estrella/baquehuate.mp3" loop></audio>
 	<div class="center-btn-container" style="flex-direction: column; gap: 1.5rem;">
 		<button class="center-btn jusep-bg" id="blankPageBtn">ㅤㅤㅤㅤㅤㅤㅤㅤ</button>
 		<button class="center-btn esponja-bg" id="esponjaPage">ㅤㅤㅤㅤㅤㅤㅤㅤ</button>
@@ -319,7 +319,7 @@
 			audio.currentTime = 0;
 		});
 
-		document.body.style.background = "url('Jusep_data/Jusep/jusep.jpg') center center/cover no-repeat";
+		document.body.style.background = "url('./Jusep_data/Jusep/jusep.jpg') center center/cover no-repeat";
 	});
 
 	// Restaurar la página principal al pulsar "Inicio"
@@ -388,7 +388,7 @@ document.querySelector('.center-btn.esponja-bg').addEventListener('click', funct
         el.style.display = 'none';
     });
 
-    document.body.style.background = "url('Jusep_data/Jusep Esponja/jusuesponja.jpg') center center/cover no-repeat";
+    document.body.style.background = "url('./Jusep_data/Jusep Esponja/jusuesponja.jpg') center center/cover no-repeat";
 
     document.getElementById('inicioLink').addEventListener('click', function (e) {
         e.preventDefault();
@@ -447,7 +447,7 @@ document.querySelector('.center-btn.esponja-bg').addEventListener('click', funct
 			audio.currentTime = 0;
 		});
 
-		document.body.style.background = "url('Jusep_data/Jusep Estrella/estrella.jpg') center center/cover no-repeat";
+		document.body.style.background = "url('./Jusep_data/Jusep Estrella/estrella.jpg') center center/cover no-repeat";
 	});
 
 	// Reproducir sonido en loop al pulsar el botón center-btn jusep-bg
@@ -492,7 +492,7 @@ document.querySelector('.center-btn.esponja-bg').addEventListener('click', funct
 			audio.currentTime = 0;
 		});
 
-		document.body.style.background = "url('Jusep_data/Jusep Esponja/jusuesponja.jpg') center center/cover no-repeat";
+		document.body.style.background = "url('./Jusep_data/Jusep Esponja/jusuesponja.jpg') center center/cover no-repeat";
 	});
 
 </script>
